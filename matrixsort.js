@@ -8,6 +8,6 @@ for (let maks = 0; maks < numbers.length; maks++) {
   for (let start = 0; start < numbers[maks].length; start++) {
 
 
-    console.log(`${maks + 1} ${start + 1} = ${numbers[start][maks]}`);
+    console.log(`${maks + 1} ${start + 1} = ${numbers[maks][start]}`);
   }
 }
