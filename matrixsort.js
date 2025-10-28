@@ -10,4 +10,4 @@ for (let maks = 0; maks < numbers.length; maks++) {
 
     console.log(`${maks + 1} ${start + 1} = ${numbers[maks][start]}`);
   }
-}# MatrixSort
+}
