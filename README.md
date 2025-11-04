@@ -1,2 +1,1 @@
-Програма створює двовимірний масив чисел numbers, де кожен підмасив — це окремий ряд. Далі два вкладених цикли проходять через усі елементи масиву та виводять їх у консоль у форматі:
-рядок стовпець дорівнює значення
+The program creates a two-dimensional array of numbers, where each subarray is a separate row. Next, two nested loops go through all the elements of the array and output them to the console in the format: row column equals value
