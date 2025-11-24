@@ -4,10 +4,20 @@ const numbers = [
   [74,18,91],
 ];
 
-for (let maks = 0; maks < numbers.length; maks++) {
-  for (let start = 0; start < numbers[maks].length; start++) {
+// Виведення всіх елементів масиву
+for (let stas = 0; stas < numbers.length; stas++) {
+  for (let start = 0; start < numbers[stas].length; start++) {
 
-
-    console.log(`${maks + 1} ${start + 1} = ${numbers[maks][start]}`);
+    console.log(`${stas + 1} ${start + 1} = ${numbers[stas][start]}`);
   }
+}
+
+// Сортування кожного підмасиву по зростанню
+for (let i = 0; i < numbers.length; i++) {
+  numbers[i].sort((a, b) => a - b);
+}
+
+console.log("Після сортування:");
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
 }
