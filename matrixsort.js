@@ -4,7 +4,7 @@ const numbers = [
   [74,18,91],
 ];
 
-// Виведення всіх елементів масиву
+
 for (let stas = 0; stas < numbers.length; stas++) {
   for (let start = 0; start < numbers[stas].length; start++) {
 
@@ -12,7 +12,7 @@ for (let stas = 0; stas < numbers.length; stas++) {
   }
 }
 
-// Сортування кожного підмасиву по зростанню
+
 for (let i = 0; i < numbers.length; i++) {
   numbers[i].sort((a, b) => a - b);
 }
